@@ -1,6 +1,6 @@
 import NoRippleTabButton from 'components/no-rippler-pressable';
 import { Tabs } from 'expo-router';
-import { Briefcase, House, Settings2, UserRound } from 'lucide-react-native';
+import { Briefcase, Heart, House, Info, Settings2, UserRound } from 'lucide-react-native';
 
 export default function Layout() {
   return (
@@ -17,40 +17,38 @@ export default function Layout() {
           borderTopWidth: 1,
           borderTopColor: '#F2F2F2',
         },
-        tabBarActiveTintColor: '#F86241',
-        tabBarInactiveTintColor: '#63707C',
+        tabBarActiveTintColor: '#1dd881',
+        tabBarInactiveTintColor: '#8e8e93',
         tabBarButton: (props) => <NoRippleTabButton {...props} />,
       }}>
       <Tabs.Screen
         name="home"
         options={{
           headerShown: false,
-          title: 'Home',
-          tabBarIcon: ({ color, size }) => <House size={20} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="my-plan"
-        options={{
-          headerShown: false,
-          title: 'My Plan',
-          tabBarIcon: ({ color, size }) => <Briefcase size={20} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="settings"
-        options={{
-          headerShown: false,
-          title: 'Settings',
-          tabBarIcon: ({ color, size }) => <Settings2 size={20} color={color} />,
+          title: 'Clips',
+          tabBarIcon: ({ color, size }) => <House size={22} color={color} />,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
           headerShown: false,
-          title: 'Profile',
-          tabBarIcon: ({ color, size }) => <UserRound size={20} color={color} />,
+          title: 'Favorites',
+          tabBarIcon: ({ color, size }) => <Heart size={22} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="settings"
+        options={{
+          headerShown: false,
+          title: 'About',
+          tabBarIcon: ({ color, size }) => <Info size={22} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="my-plan"
+        options={{
+          href: null,
         }}
       />
     </Tabs>
