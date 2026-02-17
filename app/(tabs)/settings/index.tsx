@@ -35,7 +35,7 @@ export default function AboutScreen() {
         </View>
         <Text className="text-2xl font-bold text-foreground font-inter">Samin Yasar</Text>
         <Text className="text-muted-text text-center mt-2 font-inter leading-5 px-4">
-          Software Developer & Creator of ClipCart. Passionate about building minimal and useful tools.
+          Software Developer & Creator of Clipcart. Passionate about building minimal and useful tools.
         </Text>
       </View>
 
@@ -71,7 +71,7 @@ export default function AboutScreen() {
 
       {/* App Info */}
       <View className="px-6 items-center">
-        <Text className="text-muted-text text-sm font-inter">ClipCart v1.0.0</Text>
+        <Text className="text-muted-text text-sm font-inter">Clipcart v1.0.0</Text>
         <Text className="text-muted-text text-xs font-inter mt-1">Made with ❤️ by Samin Yasar</Text>
       </View>
     </ScrollView>
