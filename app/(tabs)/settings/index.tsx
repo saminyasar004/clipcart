@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, TouchableOpacity, ScrollView, Image } from 'react-native';
 import * as Linking from 'expo-linking';
 import { Github, Globe, Linkedin, Instagram, Info } from 'lucide-react-native';
