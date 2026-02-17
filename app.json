@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "RNBoilerplate",
-    "slug": "rnboilerplate",
+    "name": "Clipcart",
+    "slug": "clipcart",
     "version": "1.0.0",
-    "scheme": "rnboilerplate",
+    "scheme": "clipcart",
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
@@ -26,15 +26,15 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#fbfefe"
       },
-      "package": "com.saminyasar004.rnboilerplate",
-      "bundleIdentifier": "com.saminyasar004.rnboilerplate"
+      "package": "com.saminyasar004.clipcart",
+      "bundleIdentifier": "com.saminyasar004.clipcart"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#fbfefe"
       },
-      "package": "com.saminyasar004.rnboilerplate",
+      "package": "com.saminyasar004.clipcart",
       "edgeToEdgeEnabled": true
     },
     "extra": {
