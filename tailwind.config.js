@@ -10,10 +10,12 @@ module.exports = {
       },
 
       colors: {
-        primary: '#1dd881',
-        'primary-dark': '#15a363',
-        'primary-light': '#5df5a6',
-        'primary-soft': '#1dd88115',
+        primary: '#064491',
+        'primary-dark': '#04326b',
+        'primary-light': '#2e63a8',
+        'primary-soft': '#06449115',
+        secondary: '#007b8c',
+        accent: '#f2a206',
         foreground: '#1a1a1a',
         background: '#f8fafc',
         'card-bg': '#ffffff',

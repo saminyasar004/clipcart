@@ -17,7 +17,7 @@ export default function Layout() {
           borderTopWidth: 1,
           borderTopColor: '#F2F2F2',
         },
-        tabBarActiveTintColor: '#1dd881',
+        tabBarActiveTintColor: '#064491',
         tabBarInactiveTintColor: '#8e8e93',
         tabBarButton: (props) => <NoRippleTabButton {...props} />,
       }}>
